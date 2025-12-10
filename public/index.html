@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Drift – Mood Canvas</title>
-  <meta name="base:app_id" content="6939b6c28a7c4e55fec73d20" />
   <meta name="description" content="Drift is a tiny mood canvas where you drag a dot on a living gradient to mark how you feel today, with yesterday’s mood softly ghosted behind." />
 
   <!-- Open Graph -->
@@ -16,35 +13,40 @@
   <meta property="og:url" content="https://drift-lime.vercel.app/" />
 
   <!-- Farcaster Frame (backwards compatibility) -->
-  <meta property="fc:frame" content='{
-    "version": "vNext",
-    "imageUrl": "https://drift-lime.vercel.app/assets/embed-3x2.png",
-    "button": {
-      "title": "Open Drift",
-      "action": {
-        "type": "launch_frame",
-        "url": "https://drift.example.com/"
+  <meta
+    name="fc:frame"
+    content='{
+      "version": "next",
+      "imageUrl": "https://drift-lime.vercel.app/assets/embed-3x2.png",
+      "button": {
+        "title": "Open Drift",
+        "action": {
+          "type": "launch_frame",
+          "url": "https://drift-lime.vercel.app/",
+          "splashImageUrl": "https://drift-lime.vercel.app/assets/splash.png",
+          "splashBackgroundColor": "#020617"
+        }
       }
-    },
-    "splashImageUrl": "https://drift-lime.vercel.app/assets/splash.png",
-    "splashBackgroundColor": "#020617"
-  }' />
+    }'
+  />
 
-  <!-- Farcaster Mini App -->
-  <meta property="fc:miniapp" content='{
-    "version": "1",
-    "title": "Drift",
-    "imageUrl": "https://drift-lime.vercel.app/assets/embed-3x2.png",
-    "button": {
-      "title": "Open Drift",
-      "action": {
-        "type": "launch_frame",
-        "url": "https://drift-lime.vercel.app/"
+  <!-- Farcaster Mini App (new spec) -->
+  <meta
+    name="fc:miniapp"
+    content='{
+      "version": "next",
+      "imageUrl": "https://drift-lime.vercel.app/assets/embed-3x2.png",
+      "button": {
+        "title": "Open Drift",
+        "action": {
+          "type": "launch_frame",
+          "url": "https://drift-lime.vercel.app/",
+          "splashImageUrl": "https://drift-lime.vercel.app/assets/splash.png",
+          "splashBackgroundColor": "#020617"
+        }
       }
-    },
-    "splashImageUrl": "https://drift-lime.vercel.app/assets/splash.png",
-    "splashBackgroundColor": "#020617"
-  }' />
+    }'
+  />
 
   <link rel="icon" type="image/png" href="https://drift-lime.vercel.app/assets/icon.png" />
 
