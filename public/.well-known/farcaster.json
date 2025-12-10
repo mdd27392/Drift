@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+      "header": "TODO_REPLACE_BASE64_HEADER",
+      "payload": "TODO_REPLACE_BASE64_PAYLOAD",
+      "signature": "TODO_REPLACE_BASE64_SIGNATURE"
+  },
+  "miniapp": {
+      "version": "1",
+      "name": "Drift",
+      "homeUrl": "https://drift.example.com/",
+      "iconUrl": "https://drift.example.com/assets/icon.png",
+      "splashImageUrl": "https://drift.example.com/assets/splash.png",
+      "splashBackgroundColor": "#020617",
+
+      "subtitle": "Drag your mood into color each day.",
+      "description": "Drift is a tiny mood canvas where you drag a dot on a living gradient to mark how you feel today, with yesterday’s mood softly ghosted behind.",
+      "primaryCategory": "lifestyle",
+      "tags": ["fun","simple","utility"],
+
+      "heroImageUrl": "https://drift.example.com/assets/hero.png",
+      "ogTitle": "Drift",
+      "ogDescription": "Drift is a tiny mood canvas where you drag a dot on a living gradient to mark how you feel today, with yesterday’s mood softly ghosted behind.",
+      "ogImageUrl": "https://drift.example.com/assets/hero.png",
+
+      "screenshotUrls": [
+         "https://drift.example.com/assets/hero.png"
+      ],
+      "noindex": true
+  }
+}
