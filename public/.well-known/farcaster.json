@@ -18,6 +18,9 @@
       "tags": ["fun","simple","utility"],
 
       "heroImageUrl": "https://drift-lime.vercel.app/assets/hero.png",
+
+      "imageUrl": "https://drift-lime.vercel.app/assets/embed-3x2.png",
+
       "ogTitle": "Drift",
       "ogDescription": "Drift is a tiny mood canvas where you drag a dot on a living gradient to mark how you feel today, with yesterday’s mood softly ghosted behind.",
       "ogImageUrl": "https://drift-lime.vercel.app/assets/hero.png",
