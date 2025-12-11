@@ -14,7 +14,7 @@
 
       "subtitle": "Drag your mood into color each day.",
       "description": "Drift is a tiny mood canvas where you drag a dot on a living gradient to mark how you feel today, with yesterday’s mood softly ghosted behind.",
-      "primaryCategory": "lifestyle",
+      "primaryCategory": "utility",
       "tags": ["fun","simple","utility"],
 
       "heroImageUrl": "https://drift-lime.vercel.app/assets/hero.png",
